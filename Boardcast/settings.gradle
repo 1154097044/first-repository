@@ -1,0 +1,11 @@
+include ':fragment'
+include ':splitactivity'
+include ':linearlayout'
+include ':animation'
+include ':progressbar'
+include ':work'
+include ':recycleview'
+include ':test'
+include ':Server'
+include ':app'
+rootProject.name = "Boardcast"

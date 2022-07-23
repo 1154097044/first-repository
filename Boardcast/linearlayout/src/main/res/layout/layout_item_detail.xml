@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="#E4E4E4"
+    android:layout_height="60dp">
+
+    <TextView
+        android:id="@+id/tray_code_tv"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="4"
+        android:text="DM02"
+        android:background="@drawable/tray_text_board"
+        android:gravity="center|left"
+        android:textSize="16sp"
+        android:padding="3dp"
+
+        android:textColor="@color/black"/>
+    <Button
+        android:id="@+id/btn_jump"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_button_blue"
+        android:text="拆分"
+        android:textSize="16sp"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
