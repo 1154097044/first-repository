@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PluginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <!-- android:onClick="start" 会报错，因为在插件里面 没有组件环境 -->
+    <Button
+        android:id="@+id/btn_start_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="插件内部跳转插件Activity" />
+
+    <Button
+        android:id="@+id/btn_start_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动内部插件Service" />
+
+    <Button
+        android:id="@+id/btn_register_receiver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="插件内部注册插件的广播接收者" />
+
+    <Button
+        android:id="@+id/btn_send_broadcast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="插件内部发送广播" />
+</LinearLayout>
